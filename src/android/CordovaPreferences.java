@@ -21,7 +21,7 @@
     OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
     SOFTWARE.
 */
-//package org.purimize.cordova.preferences;
+package org.purimize.cordova.preferences;
 
 import org.apache.cordova.CallbackContext;
 import org.apache.cordova.CordovaArgs;
