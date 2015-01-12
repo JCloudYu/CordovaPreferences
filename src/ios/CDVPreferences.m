@@ -29,7 +29,7 @@
 - (void)get:(CDVInvokedUrlCommand*)command
 {
 	NSString* string = [NSString stringWithFormat:@"%@", command.arguments[0]];
-	NSString* preference = self.commandDelegate.settings[string];
+	NSString* preference = self.commandDelegate.settings[[string lowercaseString]];
 	
 	if ( !preference ) preference = @"";
 
