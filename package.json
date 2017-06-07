@@ -1,0 +1,35 @@
+{
+  "name": "CordovaPreferences",
+  "version": "0.1.0",
+  "description": "Read preferences defined in config.xml",
+  "cordova": {
+    "id": "org.purimize.cordova.preferences",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JCloudYu/CordovaPreferences.git"
+  },
+  "keywords": [
+    "cordova config",
+    "preference",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "author": "JCloudYu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JCloudYu/CordovaPreferences/issues"
+  },
+  "homepage": "https://github.com/JCloudYu/CordovaPreferences#readme"
+}
